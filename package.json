@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "tuiter-node-server-app",
   "version": "1.0.0",
   "description": "Node.js HTTP Web server for the Tuiter application",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/Romangino/tuiter-node-server-app#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   }
 }
