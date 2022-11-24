@@ -20,9 +20,9 @@ const findTuits  = async (req, res) => {
 const updateTuit = async (req, res) => {
     const tid = req.params.tid
     const updates = req.body;
-    const tuit = await tuitDao
+    const status = await tuitDao
         .updateTuit(tid, updates)
-    res.json(tuit);
+    res.json(status);
 }
 
 const deleteTuit = async (req, res) => {
